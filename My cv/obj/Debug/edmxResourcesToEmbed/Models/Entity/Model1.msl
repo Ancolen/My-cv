@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbCVModelStoreContainer" CdmEntityContainer="DbCVEntities">
+    <EntitySetMapping Name="Table_Admin">
+      <EntityTypeMapping TypeName="DbCVModel.Table_Admin">
+        <MappingFragment StoreEntitySet="Table_Admin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nick" ColumnName="Nick" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table_Contact">
+      <EntityTypeMapping TypeName="DbCVModel.Table_Contact">
+        <MappingFragment StoreEntitySet="Table_Contact">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table_educations">
+      <EntityTypeMapping TypeName="DbCVModel.Table_educations">
+        <MappingFragment StoreEntitySet="Table_educations">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Subtitle_0" ColumnName="Subtitle_0" />
+          <ScalarProperty Name="Subtitle_1" ColumnName="Subtitle_1" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table_Experiences">
+      <EntityTypeMapping TypeName="DbCVModel.Table_Experiences">
+        <MappingFragment StoreEntitySet="Table_Experiences">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Subtitle" ColumnName="Subtitle" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table_Hobbies">
+      <EntityTypeMapping TypeName="DbCVModel.Table_Hobbies">
+        <MappingFragment StoreEntitySet="Table_Hobbies">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Hobby_0" ColumnName="Hobby_0" />
+          <ScalarProperty Name="Hobby_1" ColumnName="Hobby_1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table_skills">
+      <EntityTypeMapping TypeName="DbCVModel.Table_skills">
+        <MappingFragment StoreEntitySet="Table_skills">
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Skills" ColumnName="Skills" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table_about_me">
+      <EntityTypeMapping TypeName="DbCVModel.Table_about_me">
+        <MappingFragment StoreEntitySet="Table_about_me">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone Number" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table_Social_media">
+      <EntityTypeMapping TypeName="DbCVModel.Table_Social_media">
+        <MappingFragment StoreEntitySet="Table_Social_media">
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

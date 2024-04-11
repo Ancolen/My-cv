@@ -1,0 +1,22 @@
+﻿@model My_cv.Models.Entity.Table_skills
+@{
+    ViewBag.Title = "EditSkill";
+    Layout = "~/Views/Shared/_Admin_Layoud.cshtml";
+}
+
+<div class="resume-section-content">
+    <form method="post">
+
+        <h2 class="mb-5">Skill Edit Page</h2>
+
+        @Html.Label("Skill Description")
+        @Html.TextBoxFor(x => x.Skills, new { @class = "form-control" })
+        <br />
+
+        @Html.Label("Skill Rate")
+        @Html.TextBoxFor(x => x.Rate, new { @class = "form-control" })
+        <br />
+
+        <button  class="btn btn-success">Update</button>
+    </form>
+</div>

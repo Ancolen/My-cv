@@ -1,0 +1,13 @@
+﻿@using My_cv.Models.Entity
+@model List<Table_Hobbies>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">Hobilerim</h2>
+    @foreach (var item in Model)
+    {
+        <h3>@item.Hobby_0</h3>
+        <p class="mb-0">@item.Hobby_1</p>
+        <br>
+        <br>
+    }
+</div>

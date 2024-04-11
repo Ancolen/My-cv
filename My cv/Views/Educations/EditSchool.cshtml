@@ -1,0 +1,31 @@
+﻿@model My_cv.Models.Entity.Table_educations
+
+@{
+    ViewBag.Title = "EditSchool";
+    Layout = "~/Views/Shared/_Admin_Layoud.cshtml";
+}
+
+<div class="resume-section-content">
+    <form method="post">
+
+        <h2 class="mb-5">Education Edit Page</h2>
+
+        @Html.Label("University Name")
+        @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+        <br />
+
+        @Html.Label("Faculty Name")
+        @Html.TextBoxFor(x => x.Subtitle_0, new { @class = "form-control" })
+        <br />
+
+        @Html.Label("University Department")
+        @Html.TextBoxFor(x => x.Subtitle_1, new { @class = "form-control" })
+        <br />
+
+        @Html.Label("Start-End Date")
+        @Html.TextBoxFor(x => x.Date, new { @class = "form-control" })
+        <br />
+
+        <button class="btn btn-success">Update</button>
+    </form>
+</div>

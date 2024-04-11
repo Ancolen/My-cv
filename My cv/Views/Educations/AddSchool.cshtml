@@ -1,0 +1,29 @@
+﻿@model My_cv.Models.Entity.Table_educations
+
+@{
+    ViewBag.Title = "AddSchool";
+    Layout = "~/Views/Shared/_Admin_Layoud.cshtml";
+}
+
+<form method="post">
+    <br />
+    <h2 class="mb-5">New Education Addition Page</h2>
+    @Html.Label("University Name")
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Title, "", new { @style = "color:red" })
+    <br />
+
+    @Html.Label("Faculty Name")
+    @Html.TextBoxFor(x => x.Subtitle_0, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("University Department")
+    @Html.TextBoxFor(x => x.Subtitle_1, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Start-End Date")
+    @Html.TextBoxFor(x => x.Date, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-info">Save</button>
+</form>

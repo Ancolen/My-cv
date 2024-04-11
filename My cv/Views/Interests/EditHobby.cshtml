@@ -1,0 +1,21 @@
+﻿@model  My_cv.Models.Entity.Table_Hobbies
+
+
+@{
+    ViewBag.Title = "EditHobby";
+    Layout = "~/Views/Shared/_Admin_Layoud.cshtml";
+}
+
+<form method="post">
+    <br />
+    <h2 class="mb-5">Hobby Edit Page</h2>
+    @Html.Label("Hobby Name")
+    @Html.TextBoxFor(x => x.Hobby_0, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Hobby Description")
+    @Html.TextBoxFor(x => x.Hobby_1, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-info">Save</button>
+</form>

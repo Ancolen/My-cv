@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\merti\\source\\repos\\My cv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|c:\\users\\merti\\source\\repos\\my cv\\my cv\\views\\skills\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\skills\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\socialmedia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\socialmedia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\socialmedia\\addsocialmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\socialmedia\\addsocialmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\socialmedia\\editsocialmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\socialmedia\\editsocialmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\controllers\\educationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\controllers\\educationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\shared\\_admin_layoud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\shared\\_admin_layoud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\default\\socialmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\default\\socialmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\educations\\editschool.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\educations\\editschool.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\educations\\addschool.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\educations\\addschool.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\educations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\educations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\controllers\\aboutmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\controllers\\aboutmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\aboutme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\aboutme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\interests\\edithobby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\interests\\edithobby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\interests\\addhobby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\interests\\addhobby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\interests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\interests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\controllers\\interestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\controllers\\interestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\models\\entity\\table_educations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\models\\entity\\table_educations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|C:\\Users\\merti\\source\\repos\\My cv\\my cv\\views\\skills\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35C2C1-487E-447E-9946-F33B751B8EB6}|My cv\\My cv.csproj|solutionrelative:my cv\\views\\skills\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditSocialMedia.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\SocialMedia\\EditSocialMedia.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\SocialMedia\\EditSocialMedia.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\SocialMedia\\EditSocialMedia.cshtml",
+              "RelativeToolTip": "My cv\\Views\\SocialMedia\\EditSocialMedia.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T19:13:00.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\SocialMedia\\Index.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\SocialMedia\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\SocialMedia\\Index.cshtml",
+              "RelativeToolTip": "My cv\\Views\\SocialMedia\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T12:27:26.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddSocialMedia.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\SocialMedia\\AddSocialMedia.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\SocialMedia\\AddSocialMedia.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\SocialMedia\\AddSocialMedia.cshtml",
+              "RelativeToolTip": "My cv\\Views\\SocialMedia\\AddSocialMedia.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T13:53:49.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SocialMediaController.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\SocialMediaController.cs",
+              "RelativeDocumentMoniker": "My cv\\Controllers\\SocialMediaController.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\SocialMediaController.cs",
+              "RelativeToolTip": "My cv\\Controllers\\SocialMediaController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T12:25:18.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SocialMedia.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Default\\SocialMedia.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Default\\SocialMedia.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Default\\SocialMedia.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Default\\SocialMedia.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T11:51:34.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "My cv\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "My cv\\Controllers\\DefaultController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T11:44:30.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\AboutMe\\Index.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\AboutMe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\AboutMe\\Index.cshtml",
+              "RelativeToolTip": "My cv\\Views\\AboutMe\\Index.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T18:07:47.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AboutMeController.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\AboutMeController.cs",
+              "RelativeDocumentMoniker": "My cv\\Controllers\\AboutMeController.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\AboutMeController.cs",
+              "RelativeToolTip": "My cv\\Controllers\\AboutMeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:31:00.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Skills\\Index.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Skills\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Skills\\Index.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Skills\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T15:30:25.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddHobby.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Interests\\AddHobby.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Interests\\AddHobby.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Interests\\AddHobby.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Interests\\AddHobby.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T15:35:34.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Interests\\Index.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Interests\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Interests\\Index.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Interests\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T15:26:41.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InterestsController.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\InterestsController.cs",
+              "RelativeDocumentMoniker": "My cv\\Controllers\\InterestsController.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\InterestsController.cs",
+              "RelativeToolTip": "My cv\\Controllers\\InterestsController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:25:24.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T14:30:46.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "My cv\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "My cv\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T14:29:48.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditHobby.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Interests\\EditHobby.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Interests\\EditHobby.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Interests\\EditHobby.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Interests\\EditHobby.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T17:02:27.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Admin_Layoud.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Shared\\_Admin_Layoud.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Shared\\_Admin_Layoud.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Shared\\_Admin_Layoud.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Shared\\_Admin_Layoud.cshtml",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAswHEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T20:23:29.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Table_educations.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Models\\Entity\\Table_educations.cs",
+              "RelativeDocumentMoniker": "My cv\\Models\\Entity\\Table_educations.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Models\\Entity\\Table_educations.cs",
+              "RelativeToolTip": "My cv\\Models\\Entity\\Table_educations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T19:41:03.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditSchool.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Educations\\EditSchool.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Educations\\EditSchool.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Educations\\EditSchool.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Educations\\EditSchool.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T18:30:06.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SkillsController.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\SkillsController.cs",
+              "RelativeDocumentMoniker": "My cv\\Controllers\\SkillsController.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\SkillsController.cs",
+              "RelativeToolTip": "My cv\\Controllers\\SkillsController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwCcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:25:39.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddSkill.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Skills\\AddSkill.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Skills\\AddSkill.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Skills\\AddSkill.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Skills\\AddSkill.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T18:08:28.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddSchool.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Educations\\AddSchool.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Educations\\AddSchool.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Educations\\AddSchool.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Educations\\AddSchool.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T17:50:09.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Educations\\Index.cshtml",
+              "RelativeDocumentMoniker": "My cv\\Views\\Educations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Views\\Educations\\Index.cshtml",
+              "RelativeToolTip": "My cv\\Views\\Educations\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T17:13:26.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EducationsController.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\EducationsController.cs",
+              "RelativeDocumentMoniker": "My cv\\Controllers\\EducationsController.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Controllers\\EducationsController.cs",
+              "RelativeToolTip": "My cv\\Controllers\\EducationsController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwC0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T17:11:42.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "My cv\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\merti\\source\\repos\\My cv\\My cv\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "My cv\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T16:31:49.471Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

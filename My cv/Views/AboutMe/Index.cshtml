@@ -1,0 +1,39 @@
+﻿@using My_cv.Models.Entity
+@model List<Table_about_me>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Admin_Layoud.cshtml";
+}
+
+
+
+<form method="post">
+    @foreach (var item in Model)
+    {
+        <label>Name</label>
+        <input type="text" name="Name" value="@item.Name" class="form-control" />
+        <br />
+
+        <label>Surname</label>
+        <input type="text" name="Surname" value="@item.Surname" class="form-control"/>
+        <br />
+
+        <label>Address</label>
+        <input type="text" name="Address" value="@item.Address" class="form-control"/>
+        <br />
+
+        <label>Phone Number</label>
+        <input type="text" name="Phone Number" value="@item.Phone_Number" class="form-control"/>
+        <br />
+
+        <label>Mail</label>
+        <input type="text" name="Mail" value="@item.Mail" class="form-control"/>
+        <br />
+
+        <textarea rows="5" class="form-control" name="Description">@item.Description</textarea>
+
+    }
+    <br />
+    <button class="btn btn-success">Update</button>
+</form>

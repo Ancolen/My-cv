@@ -1,0 +1,35 @@
+﻿@using My_cv.Models.Entity
+@model List<Table_educations>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Admin_Layoud.cshtml";
+}
+
+
+<br />
+<h3>Education List</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>University Name</th>
+        <th>Faculty</th>
+        <th>Department</th>
+        <th>Date</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Title</td>
+            <td>@item.Subtitle_0</td>
+            <td>@item.Subtitle_1</td>
+            <td>@item.Date</td>
+            <td><a href="/Educations/EditSchool/@item.ID" class="btn btn-danger">Edit</a></td>
+            <td><a href="/Educations/DeleteSchool/@item.ID" class="btn btn-warning">Delete</a></td>
+        </tr>
+    }
+</table>
+<br />
+    <a href="/Educations/AddSchool" class="btn btn-primary">Add New School</a>

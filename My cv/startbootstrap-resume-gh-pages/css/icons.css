@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9cszqk');
+  src:  url('fonts/icomoon.eot?9cszqk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9cszqk') format('truetype'),
+    url('fonts/icomoon.woff?9cszqk') format('woff'),
+    url('fonts/icomoon.svg?9cszqk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bash .path1:before {
+  content: "\e900";
+  color: rgb(255, 255, 255);
+}
+.icon-bash .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(40, 48, 55);
+}
+.icon-bash .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(77, 168, 37);
+}
+.icon-bash .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-docker .path1:before {
+  content: "\e904";
+  color: rgb(54, 69, 72);
+}
+.icon-docker .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(34, 160, 200);
+}
+.icon-docker .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(55, 177, 217);
+}
+.icon-docker .path4:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(27, 129, 165);
+}
+.icon-docker .path5:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(29, 145, 180);
+}
+.icon-docker .path6:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(35, 163, 194);
+}
+.icon-docker .path7:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(52, 187, 222);
+}
+.icon-docker .path8:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(35, 163, 194);
+}
+.icon-docker .path9:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(52, 187, 222);
+}
+.icon-docker .path10:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(35, 163, 194);
+}
+.icon-docker .path11:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(52, 187, 222);
+}
+.icon-docker .path12:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(35, 163, 194);
+}
+.icon-docker .path13:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(211, 236, 236);
+}
+.icon-docker .path14:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(54, 69, 72);
+}
+.icon-docker .path15:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(189, 217, 215);
+}
+.icon-docker .path16:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(211, 236, 236);
+}
+.icon-dotnet .path1:before {
+  content: "\e914";
+  color: rgb(92, 45, 145);
+}
+.icon-dotnet .path2:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.1;
+}
+.icon-dotnet .path3:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-dotnet .path4:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-dotnet .path5:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-dotnet .path6:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-git:before {
+  content: "\e91a";
+  color: #f03c2e;
+}
+.icon-vs:before {
+  content: "\e91b";
+}
+.icon-vscode .path1:before {
+  content: "\e91c";
+  color: rgb(0, 101, 169);
+}
+.icon-vscode .path2:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(0, 122, 204);
+}
+.icon-vscode .path3:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(31, 156, 240);
+}
+.icon-vscode .path4:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.icon-c .path1:before {
+  content: "\e920";
+  color: rgb(57, 73, 171);
+}
+.icon-c .path2:before {
+  content: "\e921";
+  margin-left: -0.888671875em;
+  color: rgb(40, 53, 147);
+}
+.icon-c .path3:before {
+  content: "\e922";
+  margin-left: -0.888671875em;
+  color: rgb(92, 107, 192);
+}
+.icon-c .path4:before {
+  content: "\e923";
+  margin-left: -0.888671875em;
+  color: rgb(255, 255, 255);
+}
+.icon-mssql .path1:before {
+  content: "\e924";
+  color: rgb(0, 0, 0);
+}
+.icon-mssql .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-mssql .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-mssql .path4:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(35, 31, 31);
+}
+.icon-cs .path1:before {
+  content: "\e928";
+  color: rgb(161, 121, 220);
+}
+.icon-cs .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(40, 0, 104);
+}
+.icon-cs .path3:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(57, 0, 145);
+}
+.icon-cs .path4:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs .path5:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
