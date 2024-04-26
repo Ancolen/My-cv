@@ -5,6 +5,16 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="DbCVModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
         <EntityType Name="Table_about_me">
           <Key>
             <PropertyRef Name="ID" />
@@ -14,7 +24,7 @@
           <Property Name="Surname" Type="varchar" MaxLength="30" />
           <Property Name="Address" Type="varchar" MaxLength="100" />
           <Property Name="Mail" Type="varchar" MaxLength="50" />
-          <Property Name="Phone Number" Type="varchar" MaxLength="17" />
+          <Property Name="Phone_Number" Type="varchar" MaxLength="20" />
           <Property Name="Description" Type="varchar(max)" />
         </EntityType>
         <EntityType Name="Table_Admin">
@@ -82,6 +92,7 @@
           <Property Name="Icon" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityContainer Name="DbCVModelStoreContainer">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Table_about_me" EntityType="Self.Table_about_me" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Table_Admin" EntityType="Self.Table_Admin" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Table_Contact" EntityType="Self.Table_Contact" Schema="dbo" store:Type="Tables" />
@@ -95,6 +106,39 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="DbCVModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DbCVEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="sysdiagrams" EntityType="DbCVModel.sysdiagrams" />
+          <EntitySet Name="Table_about_me" EntityType="DbCVModel.Table_about_me" />
+          <EntitySet Name="Table_Admin" EntityType="DbCVModel.Table_Admin" />
+          <EntitySet Name="Table_Contact" EntityType="DbCVModel.Table_Contact" />
+          <EntitySet Name="Table_educations" EntityType="DbCVModel.Table_educations" />
+          <EntitySet Name="Table_Experiences" EntityType="DbCVModel.Table_Experiences" />
+          <EntitySet Name="Table_Hobbies" EntityType="DbCVModel.Table_Hobbies" />
+          <EntitySet Name="Table_skills" EntityType="DbCVModel.Table_skills" />
+          <EntitySet Name="Table_Social_media" EntityType="DbCVModel.Table_Social_media" />
+        </EntityContainer>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Table_about_me">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Surname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Phone_Number" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
         <EntityType Name="Table_Admin">
           <Key>
             <PropertyRef Name="ID" />
@@ -150,28 +194,6 @@
           <Property Name="Skills" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Rate" Type="Byte" />
         </EntityType>
-        <EntityType Name="Table_about_me">
-          <Key>
-            <PropertyRef Name="ID" />
-          </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-          <Property Name="Surname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-          <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Phone_Number" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
-          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityContainer Name="DbCVEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Table_Admin" EntityType="Self.Table_Admin" />
-          <EntitySet Name="Table_Contact" EntityType="Self.Table_Contact" />
-          <EntitySet Name="Table_educations" EntityType="Self.Table_educations" />
-          <EntitySet Name="Table_Experiences" EntityType="Self.Table_Experiences" />
-          <EntitySet Name="Table_Hobbies" EntityType="Self.Table_Hobbies" />
-          <EntitySet Name="Table_skills" EntityType="Self.Table_skills" />
-          <EntitySet Name="Table_about_me" EntityType="Self.Table_about_me" />
-          <EntitySet Name="Table_Social_media" EntityType="DbCVModel.Table_Social_media" />
-        </EntityContainer>
         <EntityType Name="Table_Social_media">
           <Key>
             <PropertyRef Name="ID" />
@@ -181,61 +203,85 @@
           <Property Name="Link" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
           <Property Name="Icon" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
-      </Schema>
+        </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="DbCVModelStoreContainer" CdmEntityContainer="DbCVEntities">
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="DbCVModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="definition" ColumnName="definition" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Table_about_me">
+            <EntityTypeMapping TypeName="DbCVModel.Table_about_me">
+              <MappingFragment StoreEntitySet="Table_about_me">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="Table_Admin">
             <EntityTypeMapping TypeName="DbCVModel.Table_Admin">
               <MappingFragment StoreEntitySet="Table_Admin">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Nick" ColumnName="Nick" />
                 <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Nick" ColumnName="Nick" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Table_Contact">
             <EntityTypeMapping TypeName="DbCVModel.Table_Contact">
               <MappingFragment StoreEntitySet="Table_Contact">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
-                <ScalarProperty Name="Mail" ColumnName="Mail" />
-                <ScalarProperty Name="Subject" ColumnName="Subject" />
-                <ScalarProperty Name="Message" ColumnName="Message" />
                 <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Table_educations">
             <EntityTypeMapping TypeName="DbCVModel.Table_educations">
               <MappingFragment StoreEntitySet="Table_educations">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Title" ColumnName="Title" />
-                <ScalarProperty Name="Subtitle_0" ColumnName="Subtitle_0" />
-                <ScalarProperty Name="Subtitle_1" ColumnName="Subtitle_1" />
                 <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Subtitle_1" ColumnName="Subtitle_1" />
+                <ScalarProperty Name="Subtitle_0" ColumnName="Subtitle_0" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Table_Experiences">
             <EntityTypeMapping TypeName="DbCVModel.Table_Experiences">
               <MappingFragment StoreEntitySet="Table_Experiences">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Title" ColumnName="Title" />
-                <ScalarProperty Name="Subtitle" ColumnName="Subtitle" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
                 <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Subtitle" ColumnName="Subtitle" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Table_Hobbies">
             <EntityTypeMapping TypeName="DbCVModel.Table_Hobbies">
               <MappingFragment StoreEntitySet="Table_Hobbies">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Hobby_0" ColumnName="Hobby_0" />
                 <ScalarProperty Name="Hobby_1" ColumnName="Hobby_1" />
+                <ScalarProperty Name="Hobby_0" ColumnName="Hobby_0" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -243,21 +289,8 @@
             <EntityTypeMapping TypeName="DbCVModel.Table_skills">
               <MappingFragment StoreEntitySet="Table_skills">
                 <ScalarProperty Name="Rate" ColumnName="Rate" />
-                <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Skills" ColumnName="Skills" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Table_about_me">
-            <EntityTypeMapping TypeName="DbCVModel.Table_about_me">
-              <MappingFragment StoreEntitySet="Table_about_me">
                 <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Surname" ColumnName="Surname" />
-                <ScalarProperty Name="Address" ColumnName="Address" />
-                <ScalarProperty Name="Mail" ColumnName="Mail" />
-                <ScalarProperty Name="Phone_Number" ColumnName="Phone Number" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

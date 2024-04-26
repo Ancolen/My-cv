@@ -4,15 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="5055f11aa20b45d98dfd28a058938076" Name="Diagram1">
-        <EntityTypeShape EntityType="DbCVModel.Table_Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbCVModel.Table_Contact" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbCVModel.Table_educations" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbCVModel.Table_Experiences" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbCVModel.Table_Hobbies" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbCVModel.Table_skills" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbCVModel.Table_about_me" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbCVModel.Table_Social_media" Width="1.5" PointX="0.75" PointY="6.75" />
+      <Diagram DiagramId="5055f11aa20b45d98dfd28a058938076" Name="Diagram1" ZoomLevel="105">
+        <EntityTypeShape EntityType="DbCVModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbCVModel.Table_about_me" Width="1.5" PointX="2.75" PointY="0.875" />
+        <EntityTypeShape EntityType="DbCVModel.Table_Admin" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbCVModel.Table_Contact" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DbCVModel.Table_educations" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DbCVModel.Table_Experiences" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DbCVModel.Table_Hobbies" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbCVModel.Table_skills" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DbCVModel.Table_Social_media" Width="1.5" PointX="4.75" PointY="6.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

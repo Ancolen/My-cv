@@ -1,5 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="DbCVModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DbCVEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="DbCVModel.sysdiagrams" />
+    <EntitySet Name="Table_about_me" EntityType="DbCVModel.Table_about_me" />
+    <EntitySet Name="Table_Admin" EntityType="DbCVModel.Table_Admin" />
+    <EntitySet Name="Table_Contact" EntityType="DbCVModel.Table_Contact" />
+    <EntitySet Name="Table_educations" EntityType="DbCVModel.Table_educations" />
+    <EntitySet Name="Table_Experiences" EntityType="DbCVModel.Table_Experiences" />
+    <EntitySet Name="Table_Hobbies" EntityType="DbCVModel.Table_Hobbies" />
+    <EntitySet Name="Table_skills" EntityType="DbCVModel.Table_skills" />
+    <EntitySet Name="Table_Social_media" EntityType="DbCVModel.Table_Social_media" />
+  </EntityContainer>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Table_about_me">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Surname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Phone_Number" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
   <EntityType Name="Table_Admin">
     <Key>
       <PropertyRef Name="ID" />
@@ -55,28 +88,6 @@
     <Property Name="Skills" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="Rate" Type="Byte" />
   </EntityType>
-  <EntityType Name="Table_about_me">
-    <Key>
-      <PropertyRef Name="ID" />
-    </Key>
-    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <Property Name="Surname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Phone_Number" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
-    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-  </EntityType>
-  <EntityContainer Name="DbCVEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Table_Admin" EntityType="Self.Table_Admin" />
-    <EntitySet Name="Table_Contact" EntityType="Self.Table_Contact" />
-    <EntitySet Name="Table_educations" EntityType="Self.Table_educations" />
-    <EntitySet Name="Table_Experiences" EntityType="Self.Table_Experiences" />
-    <EntitySet Name="Table_Hobbies" EntityType="Self.Table_Hobbies" />
-    <EntitySet Name="Table_skills" EntityType="Self.Table_skills" />
-    <EntitySet Name="Table_about_me" EntityType="Self.Table_about_me" />
-    <EntitySet Name="Table_Social_media" EntityType="DbCVModel.Table_Social_media" />
-  </EntityContainer>
   <EntityType Name="Table_Social_media">
     <Key>
       <PropertyRef Name="ID" />

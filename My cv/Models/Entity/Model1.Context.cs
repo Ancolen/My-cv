@@ -25,13 +25,14 @@ namespace My_cv.Models.Entity
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<Table_about_me> Table_about_me { get; set; }
         public virtual DbSet<Table_Admin> Table_Admin { get; set; }
         public virtual DbSet<Table_Contact> Table_Contact { get; set; }
         public virtual DbSet<Table_educations> Table_educations { get; set; }
         public virtual DbSet<Table_Experiences> Table_Experiences { get; set; }
         public virtual DbSet<Table_Hobbies> Table_Hobbies { get; set; }
         public virtual DbSet<Table_skills> Table_skills { get; set; }
-        public virtual DbSet<Table_about_me> Table_about_me { get; set; }
         public virtual DbSet<Table_Social_media> Table_Social_media { get; set; }
     }
 }
