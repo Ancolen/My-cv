@@ -20,7 +20,7 @@
                                     @foreach (var item in Model)
                                     {
                                      <div class="time-label">
-                                         <span class="bg-danger">@(((DateTime)item.Date).ToString("dd-MMMM-yyyy"))</span>
+                                         <span class="bg-danger">@(((DateTime)item.Date).ToString("dd-MM-yyyy"))</span>
                                      </div>
                                      <div>
                                          <i class="fas fa-comments bg-blue"></i>
@@ -28,6 +28,7 @@
                                              <span class="time">@item.Mail</span>
                                              <h3 class="timeline-header"><a href="#">@item.NameSurname</a>  @item.Subject</h3>
                                              <div class="timeline-body">@item.Message</div>
+                                             <a href="/Contact/DeleteMessage/@item.ID" class="btn btn-warning">Delete</a>
                                          </div>
                                      </div>
                                     }

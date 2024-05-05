@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\My cv",
+    "\\My cv\\Views",
+    "\\My cv\\Views\\Default",
+    "\\My cv\\Views\\Shared"
   ],
-  "SelectedNode": "\\My cv.sln",
+  "SelectedNode": "\\My cv\\Views\\Shared\\_Admin_Layoud.cshtml",
   "PreviewInSolutionExplorer": false
 }

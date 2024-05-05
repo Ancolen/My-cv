@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using My_cv.Models.Entity;
 using My_cv.Repositories;
@@ -11,6 +8,7 @@ namespace My_cv.Controllers
     public class SkillsController : Controller
     {
         GenericRepository<Table_skills> repo = new GenericRepository<Table_skills>();
+
         public ActionResult Index()
         {
             var skills = repo.List();

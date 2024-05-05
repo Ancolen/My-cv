@@ -8,6 +8,7 @@ using My_cv.Models.Entity;
 
 namespace My_cv.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         // GET: Default

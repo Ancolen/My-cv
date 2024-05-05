@@ -12,6 +12,7 @@ namespace My_cv.Controllers
     public class EducationsController : Controller
     {
         GenericRepository<Table_educations> repo = new GenericRepository<Table_educations>();
+
         public ActionResult Index()
         {
             var educations = repo.List();
