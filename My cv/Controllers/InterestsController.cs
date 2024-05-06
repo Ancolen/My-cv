@@ -36,10 +36,7 @@ namespace My_cv.Controllers
         [HttpPost]
         public ActionResult EditHobby(Table_Hobbies p)
         {
-            var hobby = repo.Find(x => x.ID == p.ID);
-            hobby.Hobby_0 = p.Hobby_0;
-            hobby.Hobby_1 = p.Hobby_1;
-            repo.TUpdate(hobby);
+            repo.TUpdateAll(where: x => x.ID == p.ID, updatedEntity: p);
             return RedirectToAction("Index");
         }
         public ActionResult DeleteHobby(int id)

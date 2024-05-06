@@ -38,14 +38,9 @@ namespace My_cv.Controllers
             return View(education);
         }
         [HttpPost]
-        public ActionResult EditSchool(Table_educations t)
+        public ActionResult EditSchool(Table_educations p)
         {
-            var education = repo.Find(x => x.ID == t.ID);
-            education.Title = t.Title;
-            education.Subtitle_0 = t.Subtitle_0;
-            education.Subtitle_1 = t.Subtitle_1;
-            education.Date = t.Date;
-            repo.TUpdate(education);
+            repo.TUpdateAll(where: x => x.ID == p.ID, updatedEntity: p);
             return RedirectToAction("Index");
         }
         public ActionResult DeleteSchool(int id)

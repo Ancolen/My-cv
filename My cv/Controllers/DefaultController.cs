@@ -11,7 +11,6 @@ namespace My_cv.Controllers
     [AllowAnonymous]
     public class DefaultController : Controller
     {
-        // GET: Default
 
         DbCVEntities db = new DbCVEntities();
 

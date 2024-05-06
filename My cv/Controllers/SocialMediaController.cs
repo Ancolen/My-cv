@@ -43,11 +43,7 @@ namespace My_cv.Controllers
         [HttpPost]
         public ActionResult EditSocialMedia(Table_Social_media p)
         {
-            var edit = repo.Find(x => x.ID == p.ID);
-            edit.Name = p.Name;
-            edit.Link = p.Link;
-            edit.Icon = p.Icon;
-            repo.TUpdate(edit);
+            repo.TUpdateAll(where: x => x.ID == p.ID, updatedEntity: p);
             return RedirectToAction("Index");
         }
     }

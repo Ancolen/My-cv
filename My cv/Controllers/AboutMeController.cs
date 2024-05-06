@@ -20,14 +20,7 @@ namespace My_cv.Controllers
         [HttpPost]
         public ActionResult Index(Table_about_me p) 
         {
-            var aboutMe = repo.Find(x => x.ID == 1);
-            aboutMe.Name = p.Name;
-            aboutMe.Surname = p.Surname;
-            aboutMe.Address = p.Address;
-            aboutMe.Mail = p.Mail;
-            aboutMe.Phone_Number = p.Phone_Number;
-            aboutMe.Description = p.Description;
-            repo.TUpdate(aboutMe);
+            repo.TUpdateAll(where: x => x.ID == 1, updatedEntity: p);
             return RedirectToAction("Index");
         }
     }
